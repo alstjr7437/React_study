@@ -6,8 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="black-nav">
-        <div>개발 Blog</div>
+        <div style = {{color : 'blue', fontSize : '30px'}}>개발 Blog</div>
       </div>
+      <img src = {logo} />
       <h4>{posts}</h4>
     </div>
   );
